@@ -1,0 +1,1019 @@
+﻿<!DOCTYPE html>
+
+<html lang="en"><head><!-- implemented from stitch zip: product.html --><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "on-primary-fixed": "#022110",
+        "secondary-fixed": "#ffdbd0",
+        "outline-variant": "#c2c8c0",
+        "background": "#fef8f4",
+        "surface-container-low": "#f8f3ef",
+        "on-tertiary-fixed": "#072010",
+        "secondary-fixed-dim": "#ffb59f",
+        "on-background": "#1d1b19",
+        "error": "#ba1a1a",
+        "on-error-container": "#93000a",
+        "surface": "#fef8f4",
+        "tertiary": "#0a2312",
+        "surface-bright": "#fef8f4",
+        "inverse-primary": "#accfb4",
+        "on-primary": "#ffffff",
+        "surface-container-high": "#ece7e3",
+        "primary": "#052413",
+        "surface-container": "#f2ede9",
+        "tertiary-container": "#203926",
+        "on-secondary-container": "#772f18",
+        "surface-dim": "#ded9d5",
+        "on-secondary-fixed": "#3a0a00",
+        "surface-container-highest": "#e6e2de",
+        "outline": "#727972",
+        "primary-fixed-dim": "#accfb4",
+        "on-tertiary": "#ffffff",
+        "on-primary-fixed-variant": "#2f4d39",
+        "on-error": "#ffffff",
+        "tertiary-fixed": "#cceacf",
+        "tertiary-fixed-dim": "#b1ceb4",
+        "surface-variant": "#e6e2de",
+        "surface-container-lowest": "#ffffff",
+        "on-surface": "#1d1b19",
+        "on-tertiary-fixed-variant": "#334d39",
+        "inverse-on-surface": "#f5f0ec",
+        "error-container": "#ffdad6",
+        "secondary": "#97472e",
+        "on-surface-variant": "#424843",
+        "surface-tint": "#466550",
+        "primary-fixed": "#c8ebcf",
+        "on-tertiary-container": "#87a38b",
+        "on-secondary-fixed-variant": "#793019",
+        "secondary-container": "#fe997a",
+        "on-secondary": "#ffffff",
+        "on-primary-container": "#83a48b",
+        "inverse-surface": "#32302e",
+        "primary-container": "#1c3a27"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      "spacing": {
+        "margin": "3rem",
+        "space-md": "1rem",
+        "space-xs": "0.25rem",
+        "gutter-mobile": "1rem",
+        "space-xl": "2.5rem",
+        "space-lg": "1.5rem",
+        "space-sm": "0.5rem",
+        "gutter": "1.5rem",
+        "margin-mobile": "1.25rem"
+      },
+      "fontFamily": {
+        "body-md": [
+          "Plus Jakarta Sans"
+        ],
+        "headline-sm": [
+          "Playfair Display"
+        ],
+        "body-sm": [
+          "Plus Jakarta Sans"
+        ],
+        "display-lg": [
+          "Playfair Display"
+        ],
+        "body-lg": [
+          "Plus Jakarta Sans"
+        ],
+        "headline-md": [
+          "Playfair Display"
+        ],
+        "label-lg": [
+          "Plus Jakarta Sans"
+        ],
+        "headline-xl-mobile": [
+          "Playfair Display"
+        ],
+        "label-sm": [
+          "Plus Jakarta Sans"
+        ],
+        "headline-lg": [
+          "Playfair Display"
+        ],
+        "headline-xl": [
+          "Playfair Display"
+        ],
+        "label-md": [
+          "Plus Jakarta Sans"
+        ],
+        "display-lg-mobile": [
+          "Playfair Display"
+        ]
+      },
+      "fontSize": {
+        "body-md": [
+          "16px",
+          {
+            "lineHeight": "24px",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-sm": [
+          "20px",
+          {
+            "lineHeight": "28px",
+            "fontWeight": "600"
+          }
+        ],
+        "body-sm": [
+          "14px",
+          {
+            "lineHeight": "20px",
+            "fontWeight": "400"
+          }
+        ],
+        "display-lg": [
+          "56px",
+          {
+            "lineHeight": "64px",
+            "letterSpacing": "-0.02em",
+            "fontWeight": "600"
+          }
+        ],
+        "body-lg": [
+          "18px",
+          {
+            "lineHeight": "28px",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-md": [
+          "24px",
+          {
+            "lineHeight": "32px",
+            "fontWeight": "500"
+          }
+        ],
+        "label-lg": [
+          "14px",
+          {
+            "lineHeight": "20px",
+            "letterSpacing": "0.01em",
+            "fontWeight": "600"
+          }
+        ],
+        "headline-xl-mobile": [
+          "30px",
+          {
+            "lineHeight": "38px",
+            "fontWeight": "500"
+          }
+        ],
+        "label-sm": [
+          "11px",
+          {
+            "lineHeight": "14px",
+            "letterSpacing": "0.04em",
+            "fontWeight": "700"
+          }
+        ],
+        "headline-lg": [
+          "32px",
+          {
+            "lineHeight": "40px",
+            "fontWeight": "500"
+          }
+        ],
+        "headline-xl": [
+          "40px",
+          {
+            "lineHeight": "48px",
+            "letterSpacing": "-0.01em",
+            "fontWeight": "500"
+          }
+        ],
+        "label-md": [
+          "12px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "600"
+          }
+        ],
+        "display-lg-mobile": [
+          "38px",
+          {
+            "lineHeight": "46px",
+            "letterSpacing": "-0.01em",
+            "fontWeight": "600"
+          }
+        ]
+      }
+    },
+  }
+}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(28,58,39,0.04)]"><div class="bg-primary-container text-on-primary py-space-xs px-margin text-center font-label-md text-label-md tracking-wide flex items-center justify-center gap-space-sm"><span class="material-symbols-outlined text-[16px]">eco</span><span>Spring Greenhouse Drop is live â€” Free healthy arrival guarantee on all orders over $65</span></div><div class="h-20 max-w-[1320px] mx-auto px-margin flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md shrink-0"><img alt="Verdant &amp; Co. Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XDL4ZHAzbQHZnhBYrEih0NtroBhGVXrb9P88cQRq7vcRO6VU2CnDT8mH60Jon31BRM44iBVN0FGAA1fGbh6DqXkfVUM6FolIwEA2a7UWjvm8ibm34hsCwEWGWqeFEntROGEgmTYIG6CBje2l8du3NloXXy1XpnOewyAG0SSnVSwfD3XmYV5w1pSupRySG6rRk3fD3jRbmZWnJ0H2IYByc1t9tQEqBfS5w6E-8TN1dflgmmXC0u4lBzl0eg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">Verdant &amp; Co.</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-widest uppercase">Botanical Boutique</span></div></div><nav class="hidden lg:flex items-center gap-space-sm" aria-label="Primary"><a href="shop.html" class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors">Shop</a><a href="clinic.html" class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors">Plant care</a><a href="index.html#visit" class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors">Visit us</a><a href="index.html#contact" class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors">Contact</a><a href="shop.html" class="ml-space-xs inline-flex items-center gap-1 bg-secondary text-on-secondary hover:bg-on-secondary-container font-label-md text-label-md px-space-md py-space-xs rounded-lg shadow-sm transition-all"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span>Order online</span></a></nav><div class="flex items-center gap-space-md shrink-0"><div class="relative hidden xl:block w-64"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span><input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant pl-9 pr-space-md py-space-xs rounded-lg font-body-sm text-body-sm border border-outline-variant/40 focus:border-primary focus:outline-none transition-all" placeholder="Search houseplants, planters, soil..." type="text"/></div><a class="relative p-space-xs rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors flex items-center justify-center" data-path="plant-wishlist" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="absolute top-0 right-0 w-4 h-4 bg-secondary text-on-secondary rounded-full font-label-sm text-[10px] flex items-center justify-center font-bold">3</span></a><a class="flex items-center gap-space-xs bg-surface-container-low hover:bg-surface-container text-on-surface px-space-md py-space-xs rounded-full font-label-md text-label-md transition-colors" data-path="shopping-cart" href="cart.html"><span class="material-symbols-outlined text-[18px] text-primary">shopping_bag</span><span class="font-label-md text-label-md text-on-surface font-semibold">2 items â€¢ $78.00</span></a><button data-mobile-btn aria-label="Open menu" class="lg:hidden p-space-xs rounded-lg text-primary hover:bg-surface-container transition-colors"><span class="material-symbols-outlined text-[24px]">menu</span></button><div class="relative flex items-center gap-space-xs pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL7VJug-nvNdqBUWFWl8LG-NBCoGpnEGTtuy8Yh1XJEh_4HExcqqbFQbuhhs5u5jaWnTgjTt0UwaO1PDvgtYLYt_nFEUZcI3PEr-7TyQ5jY1oEgNM9SWlAtv0-aPisjI6-3DqZ6R9aSL14VV35GLvNJy2udpnVuOng53Cv_MG_mcGy8eq_7LQfBRCuAgzly7kXjcDNSbkJBfu5Wr6H_dRsubCRJKKUsZfrzuaeHqKhdvdcIVCmQky6XQ"/><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-primary ring-2 ring-surface"></span></div></div></div><div data-mobile-menu class="hidden lg:hidden border-t border-outline-variant/20 bg-surface px-margin-mobile md:px-margin py-space-sm"><nav class="flex flex-col gap-1" aria-label="Mobile"><a href="shop.html" class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface hover:bg-surface-container transition-colors">Shop</a><a href="clinic.html" class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface hover:bg-surface-container transition-colors">Plant care</a><a href="index.html#visit" class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface hover:bg-surface-container transition-colors">Visit us</a><a href="index.html#contact" class="px-space-sm py-space-xs rounded-lg font-label-lg text-label-lg text-on-surface hover:bg-surface-container transition-colors">Contact</a><a href="shop.html" class="mt-space-xs inline-flex items-center justify-center gap-1 bg-secondary text-on-secondary font-label-lg text-label-lg px-space-md py-space-sm rounded-lg shadow-sm"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span>Order online</span></a><a href="cart.html" class="inline-flex items-center justify-center gap-1 bg-surface-container text-primary font-label-md text-label-md px-space-md py-space-xs rounded-lg mt-space-xs"><span class="material-symbols-outlined text-[18px]">shopping_cart</span><span>Cart</span></a></nav></div></header><main class="w-full pt-28 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Breadcrumb & Inventory Alert -->
+<div class="max-w-[1320px] mx-auto w-full px-margin-mobile md:px-margin pt-space-md pb-space-sm">
+<div class="flex flex-wrap items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs flex-wrap">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Indoor Plants</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Monsteras</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-medium">Monstera Deliciosa</span>
+</nav>
+<div class="inline-flex items-center gap-space-xs bg-surface-container text-primary font-label-md text-label-md px-space-sm py-1 rounded-full">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span>Greenhouse Lot #04B â€¢ Ready for Departure</span>
+</div>
+</div>
+</div>
+<!-- Primary Split Product Showcase -->
+<section class="max-w-[1320px] mx-auto w-full px-margin-mobile md:px-margin pb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-space-xl items-start">
+<!-- Left Column: Media Gallery -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Main Stage Image Container -->
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container-low shadow-md group">
+<img alt="Monstera Deliciosa in raw terracotta cylinder" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Stunning mature Monstera Deliciosa with dramatic glossy fenestrated leaves in a minimalist raw terracotta cylinder pot with drip tray, bathed in soft diffused natural morning window light inside a warm earthen minimalist living space with linen textiles." id="main-specimen-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB38VsEe7LObWQKVMku_Rbu4Sir0I-idhd3gIsFAP_xiVWoPgxH9oKCHMujnPUTjpqclqW9cZ4JmJl_VfysN5dF8y6Ej9qlih-TmHZ_D_yPOiU6tcDXDMiB3gYbBvEdcFE1-A1b7uphFgTeOe3WidYP9TaZCDlykUvx0i0cOr8ptudyiWlOfvXX-oZyCHue982ZNXj6eROesQCRaTW7xIZBl4_dQWl8f83KvAUflO1xnT8WYB3k8lygGQ"/>
+<!-- Floating Botanical Badges -->
+<div class="absolute top-space-md left-space-md flex flex-col gap-space-xs">
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm text-primary shadow-sm">
+<span class="material-symbols-outlined text-[15px] text-secondary">verified</span> Hand-Selected Specimen
+            </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm tracking-wide shadow-sm">
+              Mature Fenestrations
+            </span>
+</div>
+<!-- Micro Zoom / Fullscreen Button -->
+<button aria-label="Expand view" class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary flex items-center justify-center hover:bg-surface-container transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</button>
+</div>
+<!-- Thumbnail Selector Ribbon -->
+<div class="grid grid-cols-4 gap-space-sm">
+<button class="gallery-thumb group relative aspect-square rounded-lg overflow-hidden bg-surface-container ring-2 ring-primary transition-all" onclick="switchPhoto(this, 'Stunning mature Monstera Deliciosa with dramatic glossy fenestrated leaves in a minimalist raw terracotta cylinder pot with drip tray, bathed in soft diffused morning light.')">
+<img alt="Full specimen view" class="w-full h-full object-cover" data-alt="Full architectural view of Monstera Deliciosa displaying expansive lush leaves in terracotta container with organic warm interior lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3JE_FAplx0KkooW81dWdZr2Ov3QhwEqHCWcYy25reEs48p3hh8SkdRPZKCBXg8uN62ecoS5kTu5QUMJgBHEcqubvuV7bsuMIsxSrrm-_r7wOlef7G_Y9jiTfKpvUIifc4RLKSycZEsXllRcI6hQvfATsL44jB3sIr6v-XmO7WbDSETIK5WtgBMMtlKJZLEugR4wHHPrOnOqy_gYr2mGZ-kDiJ7nSwlPNZMprIuxxUFN6V0MNHL9UQbg"/>
+<div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors"></div>
+</button>
+<button class="gallery-thumb group relative aspect-square rounded-lg overflow-hidden bg-surface-container transition-all" onclick="switchPhoto(this, 'Extreme macro botanical photograph showing the deep perforations and natural rib venation of a lush split Monstera Deliciosa leaf with tiny dewdrops on the waxy cuticle.')">
+<img alt="Leaf fenestration close-up" class="w-full h-full object-cover" data-alt="Close up macro shot of Swiss cheese plant leaf fenestrations, capturing vibrant emerald cell texture and delicate dew droplets in bright ambient light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_sy9NYhYKvP7ljcNuID7uI23JD_gKwVTLskxUs20Qco_0QQtjvpBb_wD3qXd4StWqnCCgOoUASNIL7gWwFsiM83V2Bco7ZzBejU_8d4BiKn_Np3T5V_VG7xOfEfhvP5mERL3y4UPXSa-hgZPSLKKt5BFdLySX-7bStEwrtyYP2Tcv5CUhOIrmsR8447zSFECP_QpbgFTwwWxO1xjjNYoIJCcQ1WZ5-0UHZC_qpApTnGDL6H0_ugNB0A"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</button>
+<button class="gallery-thumb group relative aspect-square rounded-lg overflow-hidden bg-surface-container transition-all" onclick="switchPhoto(this, 'Monstera Deliciosa floor plant situated beside an oatmeal linen reading chair, warm natural wood shelving, and warm morning sun cascading across timber floorboards.')">
+<img alt="Interior scale and styling" class="w-full h-full object-cover" data-alt="Indoor interior scale shot showing Monstera Deliciosa standing gracefully next to a Scandinavian woven armchair and curated bookshelf." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZyVWbi97B_mGz4jBbfgxm7wHg0jsmgC7GIfd0Ab88pJLafWx9bbM318c4iAf0UhMAdDuuJvo71MeogMUrfuRZnzxy6QLUGkLfIOXOKt7Mcw56hQu3i-MH5z6mc-1dBKy9K730rXL-cP4M0V0PpNV-DUQBFPyKgDFU3KB0L4th-o_3HZuciG9dcTWGvgtC0Ke4juthoeiOthRc8K-FocMOy88GUfXbsGrNVTayIV0Y2AcIyY5l6pARtg"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</button>
+<button class="gallery-thumb group relative aspect-square rounded-lg overflow-hidden bg-surface-container transition-all" onclick="switchPhoto(this, 'Close-up of premium chunky botanical substrate with orchid bark chunks, coarse perlite, and coconut husk fiber cradled in warm hands, showcasing well-draining aerated potting mix.')">
+<img alt="Custom aroid substrate blend" class="w-full h-full object-cover" data-alt="Aerated premium custom aroid soil blend with coarse pine bark, perlite crystals, and dark rich organic worm castings held in gentle hands." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMuZgUmnwDRLCkqgWHOeRXHSIyxxTIKL5uAESHZPA6vc3-8DaYogzqPl85RwiLE3jHMkPHnOXch2ULVu1jmt5Gewh7XQ-UrZBlttL3WA7VBWiMPE5SFVwViEwXbHr-H7Z0FcpuAjcKkytBY9bYjnqsu95udRLY_aUCPybLswnSAxNCfVNJBIpUcwzSzgV5Ty7EEn11NmJ4r3R2aEqVUwz8Exduckj8m3u0im-2rD7wVDuf3iKyXpegVQ"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</button>
+</div>
+<!-- Packaging & Safe Shipping Notice Banner -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-start gap-space-md shadow-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed-dim/40 text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">package_2</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-primary font-semibold">Climate-Calibrated Eco Packaging</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Every specimen travels secured in our patent-pending root-hugger coco casing, shielded from extreme cold or heat waves with biodegradable thermal fleece.</p>
+</div>
+</div>
+</div>
+<!-- Right Column: Product Detail & Purchase Engine -->
+<div class="lg:col-span-5 flex flex-col">
+<!-- Botanical Taxonomy & Title -->
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md tracking-wider uppercase mb-1">
+<span class="material-symbols-outlined text-[16px]">yard</span>
+<span class="italic font-serif">Monstera deliciosa Liebm.</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary font-headline-sm tracking-tight leading-tight mb-2">
+          Monstera Deliciosa
+        </h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+          Colloquially celebrated as the <span class="text-on-surface font-medium">Swiss Cheese Plant</span> or Split-Leaf Philodendron. Renowned for dramatic natural leaf perforations and effortless indoor resilience.
+        </p>
+<!-- Social Proof Rating -->
+<div class="flex items-center gap-space-sm pb-space-md">
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">4.9</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">â€¢</span>
+<a class="font-body-sm text-body-sm text-primary underline underline-offset-4 hover:text-secondary transition-colors" href="#reviews-section">384 verified grower reviews</a>
+</div>
+<!-- Pricing Panel -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm mb-space-md">
+<div class="flex items-baseline gap-space-sm">
+<span class="font-headline-lg text-headline-lg text-primary font-bold" id="display-price">$70.00</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">tax included</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 flex items-center gap-1">
+<span>Or 4 interest-free payments of</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold" id="installment-price">$17.50</span>
+<span>with</span>
+<span class="font-label-md text-label-md text-primary font-bold">Klarna</span>
+</p>
+</div>
+<!-- Spec 1: Pot Size Selection -->
+<div class="mb-space-md">
+<div class="flex justify-between items-center mb-space-xs">
+<span class="font-label-lg text-label-lg text-primary font-semibold">1. Select Specimen Maturity</span>
+<button class="font-label-md text-label-md text-secondary hover:underline inline-flex items-center gap-1" onclick="toggleSizeGuideModal(true)">
+<span class="material-symbols-outlined text-[15px]">straighten</span> Size Guide
+            </button>
+</div>
+<div class="grid grid-cols-3 gap-space-xs" id="size-selector-group">
+<button class="size-btn p-space-sm rounded-lg bg-surface-container-lowest text-left transition-all hover:bg-surface-container" onclick="selectSize(48, '6\\&quot; Desktop', this)">
+<span class="block font-label-md text-label-md text-on-surface font-semibold">6" Desktop</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant mt-0.5">$48.00</span>
+<span class="block font-label-sm text-label-sm text-primary/70 mt-1">12-16" Tall</span>
+</button>
+<button class="size-btn active p-space-sm rounded-lg bg-surface-container-high ring-2 ring-primary text-left transition-all" onclick="selectSize(68, '8\\&quot; Floor Plant', this)">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-bold">8" Floor</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+</div>
+<span class="block font-body-sm text-body-sm text-on-surface font-semibold mt-0.5">$68.00</span>
+<span class="block font-label-sm text-label-sm text-primary/80 mt-1">22-28" Tall</span>
+</button>
+<button class="size-btn p-space-sm rounded-lg bg-surface-container-lowest text-left transition-all hover:bg-surface-container" onclick="selectSize(110, '10\\&quot; Giant Feature', this)">
+<span class="block font-label-md text-label-md text-on-surface font-semibold">10" Giant</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant mt-0.5">$110.00</span>
+<span class="block font-label-sm text-label-sm text-primary/70 mt-1">36-44" Tall</span>
+</button>
+</div>
+</div>
+<!-- Spec 2: Ceramic / Planter Pairing -->
+<div class="mb-space-md">
+<div class="flex justify-between items-center mb-space-xs">
+<span class="font-label-lg text-label-lg text-primary font-semibold">2. Choose Artisan Vessel</span>
+<span class="font-label-md text-label-md text-on-surface-variant" id="selected-planter-name">Raw Terracotta (+ $22.00)</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs" id="planter-group">
+<!-- Option 1: Nursery pot -->
+<button class="planter-btn p-space-sm rounded-lg bg-surface-container-lowest text-left transition-all hover:bg-surface-container flex items-center gap-space-sm" onclick="selectPlanter(0, 'Nursery Pot Only', this)">
+<span class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">recycling</span>
+</span>
+<div class="min-w-0">
+<span class="block font-label-md text-label-md text-on-surface font-semibold truncate">Nursery Pot</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Included</span>
+</div>
+</button>
+<!-- Option 2: Raw Terracotta -->
+<button class="planter-btn active p-space-sm rounded-lg bg-surface-container-high ring-2 ring-primary text-left transition-all flex items-center gap-space-sm" onclick="selectPlanter(22, 'Raw Terracotta Cylinder', this)">
+<span class="w-8 h-8 rounded-full bg-[#C86D51] text-white flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">potted_plant</span>
+</span>
+<div class="min-w-0">
+<span class="block font-label-md text-label-md text-primary font-bold truncate">Raw Terracotta</span>
+<span class="block font-body-sm text-body-sm text-secondary font-medium">+$22.00</span>
+</div>
+</button>
+<!-- Option 3: Sage Ceramic -->
+<button class="planter-btn p-space-sm rounded-lg bg-surface-container-lowest text-left transition-all hover:bg-surface-container flex items-center gap-space-sm" onclick="selectPlanter(28, 'Fluted Sage Ceramic', this)">
+<span class="w-8 h-8 rounded-full bg-primary-fixed-dim text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">grass</span>
+</span>
+<div class="min-w-0">
+<span class="block font-label-md text-label-md text-on-surface font-semibold truncate">Fluted Sage</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">+$28.00</span>
+</div>
+</button>
+<!-- Option 4: Basalt Charcoal -->
+<button class="planter-btn p-space-sm rounded-lg bg-surface-container-lowest text-left transition-all hover:bg-surface-container flex items-center gap-space-sm" onclick="selectPlanter(28, 'Basalt Matte Charcoal', this)">
+<span class="w-8 h-8 rounded-full bg-inverse-surface text-surface flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">nature</span>
+</span>
+<div class="min-w-0">
+<span class="block font-label-md text-label-md text-on-surface font-semibold truncate">Basalt Charcoal</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">+$28.00</span>
+</div>
+</button>
+</div>
+</div>
+<!-- Quantity & Add to Cart Action -->
+<div class="flex items-center gap-space-sm mb-space-sm">
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-lowest rounded-lg p-1 shadow-sm shrink-0">
+<button aria-label="Decrease quantity" class="w-10 h-10 rounded text-primary hover:bg-surface-container transition-colors flex items-center justify-center" onclick="adjustQuantity(-1)">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<span class="w-10 text-center font-label-lg text-label-lg font-bold text-primary" id="qty-val">1</span>
+<button aria-label="Increase quantity" class="w-10 h-10 rounded text-primary hover:bg-surface-container transition-colors flex items-center justify-center" onclick="adjustQuantity(1)">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<!-- Terracotta CTA -->
+<button class="flex-1 bg-secondary hover:bg-on-secondary-container text-on-secondary h-12 rounded-lg font-label-lg text-label-lg font-semibold flex items-center justify-center gap-space-xs transition-all shadow-md hover:shadow-lg active:scale-[0.99]" id="add-to-cart-btn" onclick="triggerCartPulse()">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span id="cart-button-text">Add to Cart â€¢ $90.00</span>
+</button>
+</div>
+<!-- Fulfillment & Guarantee assurances -->
+<div class="flex flex-col gap-2 pt-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px] text-primary">local_shipping</span>
+<span>In stock â€¢ Dispatches within 48h from Greenhouse Lot 2</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified_user</span>
+<span>30-Day Guaranteed Healthy Arrival â€¢ Full replacement pledge</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Comprehensive Botanical Care Matrix -->
+<section class="w-full bg-surface-container-low py-space-xl">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<div class="max-w-2xl mb-space-lg">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Horticultural Standard</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">Care &amp; Cultivation Matrix</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          Rooted in the lush jungle understories of Southern Mexico and Central America, Monstera Deliciosa is famously adaptable to home environments when provided with rhythm and balance.
+        </p>
+</div>
+<!-- 5-Point Bento Care Badges -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Sunlight Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">wb_sunny</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary uppercase">Filtered Bright</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Sunlight</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Medium to bright indirect sunlight. Tolerates moderate shaded corners but fenestrations flourish in radiant ambient light. Avoid harsh scorch from midday southern exposure.</p>
+</div>
+<!-- Visual Sunlight Meter -->
+<div class="mt-space-md pt-space-sm">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mb-1">
+<span>Intensity</span>
+<span class="text-primary font-bold">75% Indirect</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden flex gap-0.5">
+<div class="h-full bg-primary flex-1"></div>
+<div class="h-full bg-primary flex-1"></div>
+<div class="h-full bg-primary flex-1"></div>
+<div class="h-full bg-surface-container-high flex-1"></div>
+</div>
+</div>
+</div>
+<!-- Watering Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">water_drop</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary uppercase">Bi-Weekly Rhythm</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Hydration</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Drench thoroughly every 1â€“2 weeks. Allow the top 2â€“3 inches of substrate to dry completely between cycles. Reduce frequency substantially across winter dormancy.</p>
+</div>
+<!-- Visual Hydration Meter -->
+<div class="mt-space-md pt-space-sm">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mb-1">
+<span>Soil Dryness Check</span>
+<span class="text-primary font-bold">Top 3" Dry</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden flex gap-0.5">
+<div class="h-full bg-primary flex-1"></div>
+<div class="h-full bg-primary flex-1"></div>
+<div class="h-full bg-surface-container-high flex-1"></div>
+<div class="h-full bg-surface-container-high flex-1"></div>
+</div>
+</div>
+</div>
+<!-- Humidity & Temperature -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">humidity_percentage</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary uppercase">60%+ Preferred</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Humidity &amp; Warmth</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Thrives between 65Â°Fâ€“85Â°F (18Â°Câ€“29Â°C). While standard home ambient air is accepted, high ambient humidity accelerates aerial root formation and dramatic foliage sizing.</p>
+</div>
+<div class="mt-space-md pt-space-sm">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mb-1">
+<span>Ideal Humidity</span>
+<span class="text-primary font-bold">60% - 80%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden flex gap-0.5">
+<div class="h-full bg-primary flex-1"></div>
+<div class="h-full bg-primary flex-1"></div>
+<div class="h-full bg-primary flex-1"></div>
+<div class="h-full bg-primary flex-1"></div>
+</div>
+</div>
+</div>
+<!-- Toxicity Warning -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary/15 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">pets</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold uppercase">Cautionary</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Pet Safety</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Contains insoluble calcium oxalate crystals. Ingestion may induce oral irritation, swelling, and digestive upset. Best elevated on pedestals away from playful pets.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center gap-space-xs text-secondary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[18px]">info</span>
+<span>Toxic to canines and felines if chewed</span>
+</div>
+</div>
+<!-- Ease & Difficulty -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">sentiment_satisfied</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-bold uppercase">Beginner Level 1</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Grower Difficulty</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Remarkably tolerant. Forgives occasional missed watering cycles and quickly telegraphs moisture needs through graceful leaf posture before any lasting damage occurs.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center gap-space-xs text-primary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span>Ideal starter architectural foliage</span>
+</div>
+</div>
+<!-- Growth Habit & Support -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="w-12 h-12 rounded-xl bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[26px]">height</span>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary uppercase">Climbing Epiphyte</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Moss Pole Climbing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Naturally an epiphytic vine. Affixing a cedar stake or coco-coir moss pole encourages upward vertical stature and exponentially larger fenestrated fronds.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center gap-space-xs text-primary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[18px]">park</span>
+<span>Can reach 8+ ft indoors with pole</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Deep Dive: Substrate Engineering & Meet Your Grower -->
+<section class="max-w-[1320px] mx-auto w-full px-margin-mobile md:px-margin py-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left Substrate Story -->
+<div class="lg:col-span-6 flex flex-col">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Holistic Cultivation</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1 mb-space-sm">Engineered Aroid Substrate: The Living Root Base</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+          Standard peat potting mixes suffocate tropical monsteras. Our in-house organic aroid blend mimics the airy organic forest floor, maximizing oxygen intake to prevent root pathogens while retaining optimal micro-moisture.
+        </p>
+<!-- Substrate Ingredients Bento Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="bg-surface-container p-space-md rounded-xl">
+<div class="font-label-lg text-label-lg text-primary font-bold mb-1">50% Pinus Bark</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Chunky heat-sterilized New Zealand pine provides non-compacting macro pores.</p>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl">
+<div class="font-label-lg text-label-lg text-primary font-bold mb-1">30% Coarse Perlite</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Expanded mineral volcanic rock for permanent oxygenation and fast gravity drainage.</p>
+</div>
+<div class="bg-surface-container p-space-md rounded-xl">
+<div class="font-label-lg text-label-lg text-primary font-bold mb-1">20% Worm Castings</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pure vermicompost delivers gentle microbial life and sustained slow nutrient delivery.</p>
+</div>
+</div>
+<div class="mt-space-md p-space-md bg-surface-container-low rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">science</span>
+<span class="font-label-lg text-label-lg text-primary">Substrate pH calibrated to 5.8 â€“ 6.4</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Peat-Free Certified</span>
+</div>
+</div>
+<!-- Right Grower Spotlight Card -->
+<div class="lg:col-span-6">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-md relative overflow-hidden">
+<div class="flex flex-col sm:flex-row items-center sm:items-start gap-space-md">
+<img alt="Head Horticulturist Julian Vance" class="w-28 h-28 sm:w-36 sm:h-36 rounded-full object-cover shrink-0 shadow-sm ring-4 ring-surface-container" data-alt="Experienced botanist in linen apron tending lush tropical Monstera plants inside a sun-drenched, steamy glass greenhouse with glass ceiling framework in background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNB1DdVsuxl7VCWS694NVzEN8CEJsyQ8w63LfE0trEDqISH6wbzb9flPto7BtaO6qL37ldJCU29xqK7BfC5eggnl1ZmBvXU9a93fqXvpvUmCB0dplRmRKEoajtaLzmupbeHih9z5EnctMO3ETsVT6dEXAver7oA9oJJ0uOt2qPa_uDT2etdUv4pbgJIayT5DGSkTcphHpbsyM5q6Da7oeTiyD5VvIJcAP3g3Ah_b3X5RKDPj2pgEHiCg"/>
+<div class="flex flex-col text-center sm:text-left">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-widest">Nursery Lead â€¢ Glasshouse 2</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1">Julian Vance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                "We don't force fast unnatural greenhouse growth with synthetic nitrates. Every Monstera Deliciosa is hardened off naturally for 8 months under varied ambient humidity, ensuring it won't drop leaves the moment it enters your living room."
+              </p>
+<div class="mt-space-sm flex flex-wrap items-center justify-center sm:justify-start gap-space-xs font-label-sm text-label-sm text-primary">
+<span class="inline-flex items-center gap-1 bg-surface-container px-2 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[14px]">school</span> M.S. Plant Sciences
+                </span>
+<span class="inline-flex items-center gap-1 bg-surface-container px-2 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 14 Yrs Nursery Lead
+                </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Care Clinic Q&A & Community Reviews -->
+<section class="w-full bg-surface-container-low py-space-xl" id="reviews-section">
+<div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin">
+<!-- Reviews Header & Stats -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-space-md mb-space-lg">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Community Verification</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">Real Growth Stories</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Over 380 homes transformed by Verdant &amp; Co. Monstera specimens.</p>
+</div>
+<div class="bg-surface-container-lowest px-space-md py-space-sm rounded-xl shadow-sm flex items-center gap-space-md">
+<div class="text-center">
+<span class="font-headline-lg text-headline-lg text-primary font-bold leading-none">4.9</span>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Out of 5.0</span>
+</div>
+<div class="w-px h-8 bg-surface-container-high"></div>
+<div>
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">98% Recommendation rate</span>
+</div>
+</div>
+</div>
+<!-- Customer Reviews Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md mb-space-xl">
+<!-- Review 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-primary-fixed text-primary font-label-md text-label-md font-bold flex items-center justify-center">ER</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary font-bold">Elena R.</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Botanist</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">3 days ago</span>
+</div>
+<div class="flex text-secondary mb-2">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              "Arrived with zero crushed leaves in Seattle during a 42Â°F drop! The insulating packaging worked miracles. Within two weeks, I already have a gorgeous new unfurling leaf with double row fenestrations."
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs border-t-0 flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span>Purchased 8" Floor Plant in Raw Terracotta</span>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-bold flex items-center justify-center">MK</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary font-bold">Marcus K.</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Buyer</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2 weeks ago</span>
+</div>
+<div class="flex text-secondary mb-2">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              "The soil mix they use is genuinely top tier. You can tell they don't cut corners with dense soggy nursery peat. Water runs straight through cleanly and the plant smells fresh and earthy."
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span>Purchased 10" Giant Feature</span>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-surface-container-high text-primary font-label-md text-label-md font-bold flex items-center justify-center">SM</span>
+<div>
+<h4 class="font-label-md text-label-md text-primary font-bold">Sophie M.</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Buyer</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">1 month ago</span>
+</div>
+<div class="flex text-secondary mb-2">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              "Iâ€™m an absolute beginner who has accidentally overwatered plants before. Following the care meter card in the box made it effortless. Itâ€™s the centerpiece of my dining space."
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span>Purchased 6" Desktop in Sage Ceramic</span>
+</div>
+</div>
+</div>
+<!-- Plant Doctor Clinic & Common Questions Accordion -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-md text-primary">
+<span class="material-symbols-outlined text-[24px]">contact_support</span>
+<h3 class="font-headline-sm text-headline-sm">Plant Clinic: Frequently Asked Questions</h3>
+</div>
+<div class="divide-y-0 space-y-space-xs">
+<!-- FAQ item 1 -->
+<div class="faq-item rounded-lg bg-surface-container-low p-space-md cursor-pointer transition-colors" onclick="toggleFaq(this)">
+<div class="flex justify-between items-center">
+<h4 class="font-label-lg text-label-lg text-primary font-semibold">Why arenâ€™t my new leaves showing split fenestrations yet?</h4>
+<span class="material-symbols-outlined text-primary transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-answer hidden mt-space-sm text-on-surface-variant font-body-sm text-body-sm">
+              Fenestrations are a biological adaptation to allow canopy sunlight and heavy tropical rainfall through to lower foliage. If young leaves emerge solid, it is almost always a sign that your Monstera requires more indirect sunlight or has not yet reached botanical maturity (typically at 6â€“10 months).
+            </div>
+</div>
+<!-- FAQ item 2 -->
+<div class="faq-item rounded-lg bg-surface-container-low p-space-md cursor-pointer transition-colors" onclick="toggleFaq(this)">
+<div class="flex justify-between items-center">
+<h4 class="font-label-lg text-label-lg text-primary font-semibold">What should I do with the long brown aerial roots?</h4>
+<span class="material-symbols-outlined text-primary transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-answer hidden mt-space-sm text-on-surface-variant font-body-sm text-body-sm">
+              Do not snip them off unless necessary! In nature, aerial roots climb tree bark and pull ambient moisture from the jungle air. You can gently tuck them back down into the pot substrate to supply supplemental moisture to the plant, or guide them around a moss pole.
+            </div>
+</div>
+<!-- FAQ item 3 -->
+<div class="faq-item rounded-lg bg-surface-container-low p-space-md cursor-pointer transition-colors" onclick="toggleFaq(this)">
+<div class="flex justify-between items-center">
+<h4 class="font-label-lg text-label-lg text-primary font-semibold">How frequently should I dust or clean the foliage?</h4>
+<span class="material-symbols-outlined text-primary transition-transform duration-300">expand_more</span>
+</div>
+<div class="faq-answer hidden mt-space-sm text-on-surface-variant font-body-sm text-body-sm">
+              We recommend gently wiping the leaves with a damp microfiber cloth once a month. Removing indoor household dust allows the stomata to transpire properly and improves photosynthetic efficiency by up to 30%.
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Complete the Botanical Sanctuary (Related Pairings) -->
+<section class="max-w-[1320px] mx-auto w-full px-margin-mobile md:px-margin py-space-xl">
+<div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-space-xs mb-space-lg">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Curated Companions</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">Cultivated Together in Glasshouse 2</h2>
+</div>
+<a class="font-label-lg text-label-lg text-primary hover:text-secondary inline-flex items-center gap-1 transition-colors" href="#">
+<span>View all Aroids</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Pair 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between">
+<div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container mb-space-sm relative">
+<img alt="Philodendron Gloriosum" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Philodendron Gloriosum with velvet cordate heart-shaped leaves and bright white veins resting in a modern ceramic planter on a wooden table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ4pv4LbbaHQHcVi1SJG4p9gKYzj0ProyPctgfFyEay7F9XUhnZpVd6Oj-KuwUyzE33UeQY7FaIZFtWkfjYpKFhkNEH56E8D_3DVivfRuxOv8C4Yd764agyqWCo7YP79L5Fn7AZdlyd1tIca54zJWJis4GG9mQSfTOAOzpbxIlAtGOBQoQQjHbrdFJPjJkN2miAXqfqLCEAXcnsS7oAMxajEXZwq6wSJ27MdRnWpA_z-tV6L78WDjjww"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 font-label-sm text-label-sm text-primary">Velvet Foliage</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Rare Epiphyte</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-0.5">Philodendron Gloriosum</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Velvety crawling heart leaf</p>
+</div>
+<div class="flex items-center justify-between mt-space-md pt-space-xs">
+<span class="font-label-lg text-label-lg text-primary font-bold">$54.00</span>
+<button class="w-9 h-9 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+<!-- Pair 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between">
+<div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container mb-space-sm relative">
+<img alt="Monstera Adansonii" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Monstera Adansonii monkey mask trailing foliage in a hanging ceramic vessel near diffused sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmo8RekjH-QFqn1eZpqQbyY_uL3psOi3cAsHDyLCAoF7pTCtnQWUE4S7eEI66ryjLx7JvRB8cBL5dezDIW7Inbcm4CtVsAYrywOeivRzv7BAduF5ssWT_xSnc8h0vy4f1w-O_F0-8DPp4A5xDQE1PheowwpNH0iZDASEwdc8QYVxuuEIK6EztcF4rlhphbXYzyVUpm65CtiUFyXmIxn1fHlnKiQHyjT0w2dumt4NI3uiY7CVeYnMwKrA"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 font-label-sm text-label-sm text-primary">Trailing Habit</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Vining Specimen</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-0.5">Monstera Adansonii</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Swiss Cheese Vine</p>
+</div>
+<div class="flex items-center justify-between mt-space-md pt-space-xs">
+<span class="font-label-lg text-label-lg text-primary font-bold">$36.00</span>
+<button class="w-9 h-9 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+<!-- Pair 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between">
+<div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container mb-space-sm relative">
+<img alt="Stackable Coco Totem Pole" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Natural coco coir moss totem pole support stake for climbing monsteras and indoor houseplants." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCpcfFt6AH0Zc2F4o7FoNsVJqhwH9dggmBnvqJSZPZIpnFZpJ0EoLdEhZGGadPerbB4EcPfEmNV-N-h_MCiw7h3h7l0Y8yzEIiTs7QlVopLNNeVHCGV9mhI1brjAN_x-k3G-1m7YJxbPlOFlGaqOE32LaFDDsVz7pGHTyNYj-FeNYQeqSD-D3StjNfFnjNiBKgasMtQzhYS0EKIsgmvDt6wxpXsEXQzmVuIH4KV-n5WMBeHHWs-rVIcw"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 font-label-sm text-label-sm text-primary">Care Tool</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Botanical Support</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-0.5">Stackable Coco Totem</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">36" Aerial Root Support</p>
+</div>
+<div class="flex items-center justify-between mt-space-md pt-space-xs">
+<span class="font-label-lg text-label-lg text-primary font-bold">$18.00</span>
+<button class="w-9 h-9 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+<!-- Pair 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm shadow-sm hover:shadow-md transition-shadow group flex flex-col justify-between">
+<div>
+<div class="aspect-square rounded-lg overflow-hidden bg-surface-container mb-space-sm relative">
+<img alt="Organic Micro-Nutrient Houseplant Tonic" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Amber glass apothecary bottle of organic liquid seaweed and fish hydrolysate houseplant tonic on a wooden tray with green leaves." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGutkKUR0QwcFUB2nvmi9EN0LZxzCET8racZEtWV4IaK_qQWrMTPDEhXkVnPkVzxZm_Qn98keaFlgMRi2F77TR74vSnJupUS-8OU1lHB9IUiGe6esvID5NaMID2RGoVVfvqwSGUAm9nVVyIPPvXBRKIYgKuo2_DTyCjkhg3VOZzZ-qA_lDUOjqAAbqoGbHUhxUlSGH77driwg2tXLbArljBkGdH-6CFqKYiKBozowxYdU6-hiVxrFYPQ"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-surface-container-lowest/90 font-label-sm text-label-sm text-primary">Micro-Nutrients</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Greenhouse Elixir</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-0.5">Forest Elixir Bio-Tonic</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Cold-pressed Kelp Extract (8oz)</p>
+</div>
+<div class="flex items-center justify-between mt-space-md pt-space-xs">
+<span class="font-label-lg text-label-lg text-primary font-bold">$24.00</span>
+<button class="w-9 h-9 rounded-full bg-surface-container hover:bg-primary hover:text-on-primary text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Modal: Size Guide Dialog -->
+<div aria-labelledby="modal-title" aria-modal="true" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-primary/40 backdrop-blur-sm hidden" id="size-guide-modal" role="dialog">
+<div class="bg-surface-container-lowest rounded-xl p-space-lg max-w-lg w-full shadow-2xl relative">
+<div class="flex items-center justify-between mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-primary" id="modal-title">Botanical Sizing Guide</h3>
+<button aria-label="Close dialog" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-surface-container-high transition-colors" onclick="toggleSizeGuideModal(false)">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<div class="p-space-sm rounded-lg bg-surface-container">
+<div class="font-label-md text-label-md text-primary font-bold">6" Desktop Specimen ($48.00)</div>
+<p class="mt-0.5">Estimated total height: 12"â€“16". Contains 3â€“5 developed foliage stems with initial natural splitting. Perfect for console tables, desks, and kitchen islands.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container">
+<div class="font-label-md text-label-md text-primary font-bold">8" Floor Feature ($68.00)</div>
+<p class="mt-0.5">Estimated total height: 22"â€“28". Established root structure with extensive fenestration. Ideal standalone sculptural floor statement beside accent seating.</p>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container">
+<div class="font-label-md text-label-md text-primary font-bold">10" Giant Architectural ($110.00)</div>
+<p class="mt-0.5">Estimated total height: 36"â€“44". 18+ months mature with primary aerial roots. Massive leaves exceeding 14 inches width across.</p>
+</div>
+</div>
+<div class="mt-space-md text-right">
+<button class="bg-primary text-on-primary font-label-md text-label-md px-space-md py-2 rounded-lg hover:bg-primary-container transition-colors" onclick="toggleSizeGuideModal(false)">
+          Got it
+        </button>
+</div>
+</div>
+</div>
+<!-- Interactive Dynamic Configuration Logic -->
+<script>
+    let currentPlantPrice = 68.00;
+    let currentPlanterPrice = 22.00;
+    let currentQuantity = 1;
+
+    function updatePriceDisplay() {
+      const singleTotal = currentPlantPrice + currentPlanterPrice;
+      const finalTotal = singleTotal * currentQuantity;
+      const installment = (finalTotal / 4).toFixed(2);
+
+      const displayPriceEl = document.getElementById('display-price');
+      const installmentPriceEl = document.getElementById('installment-price');
+      const cartBtnTextEl = document.getElementById('cart-button-text');
+
+      if (displayPriceEl) displayPriceEl.innerText = '$' + finalTotal.toFixed(2);
+      if (installmentPriceEl) installmentPriceEl.innerText = '$' + installment;
+      if (cartBtnTextEl) cartBtnTextEl.innerText = 'Add to Cart â€¢ $' + finalTotal.toFixed(2);
+    }
+
+    function selectSize(price, label, btn) {
+      currentPlantPrice = price;
+      document.querySelectorAll('.size-btn').forEach(b => {
+        b.classList.remove('active', 'bg-surface-container-high', 'ring-2', 'ring-primary');
+        b.classList.add('bg-surface-container-lowest');
+      });
+      btn.classList.add('active', 'bg-surface-container-high', 'ring-2', 'ring-primary');
+      btn.classList.remove('bg-surface-container-lowest');
+      updatePriceDisplay();
+    }
+
+    function selectPlanter(addonPrice, name, btn) {
+      currentPlanterPrice = addonPrice;
+      document.querySelectorAll('.planter-btn').forEach(b => {
+        b.classList.remove('active', 'bg-surface-container-high', 'ring-2', 'ring-primary');
+        b.classList.add('bg-surface-container-lowest');
+      });
+      btn.classList.add('active', 'bg-surface-container-high', 'ring-2', 'ring-primary');
+      btn.classList.remove('bg-surface-container-lowest');
+      
+      const nameEl = document.getElementById('selected-planter-name');
+      if (nameEl) {
+        nameEl.innerText = name + (addonPrice > 0 ? ' (+$' + addonPrice.toFixed(2) + ')' : ' (Included)');
+      }
+      updatePriceDisplay();
+    }
+
+    function adjustQuantity(delta) {
+      currentQuantity = Math.max(1, Math.min(10, currentQuantity + delta));
+      const qtyEl = document.getElementById('qty-val');
+      if (qtyEl) qtyEl.innerText = currentQuantity;
+      updatePriceDisplay();
+    }
+
+    function switchPhoto(btn, altText) {
+      document.querySelectorAll('.gallery-thumb').forEach(t => t.classList.remove('ring-2', 'ring-primary'));
+      btn.classList.add('ring-2', 'ring-primary');
+      const mainImg = document.getElementById('main-specimen-image');
+      if (mainImg) {
+        mainImg.setAttribute('data-alt', altText);
+      }
+    }
+
+    function toggleFaq(item) {
+      const answer = item.querySelector('.faq-answer');
+      const icon = item.querySelector('.material-symbols-outlined');
+      if (!answer) return;
+      const isHidden = answer.classList.contains('hidden');
+      if (isHidden) {
+        answer.classList.remove('hidden');
+        if (icon) icon.innerText = 'expand_less';
+      } else {
+        answer.classList.add('hidden');
+        if (icon) icon.innerText = 'expand_more';
+      }
+    }
+
+    function toggleSizeGuideModal(show) {
+      const modal = document.getElementById('size-guide-modal');
+      if (!modal) return;
+      if (show) {
+        modal.classList.remove('hidden');
+      } else {
+        modal.classList.add('hidden');
+      }
+    }
+
+    function triggerCartPulse() {
+      const btn = document.getElementById('add-to-cart-btn');
+      if (!btn) return;
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-bounce">check</span><span>Added to Greenhouse Bag!</span>';
+      btn.classList.remove('bg-secondary');
+      btn.classList.add('bg-primary');
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.classList.add('bg-secondary');
+        btn.classList.remove('bg-primary');
+      }, 2200);
+    }
+
+    // Initialize initial calculations
+    document.addEventListener('DOMContentLoaded', () => {
+      updatePriceDisplay();
+    });
+  </script>
+</div></main><footer id="contact" class="w-full bg-surface-container-low pt-space-xl pb-space-lg mt-space-xl"><div class="max-w-[1320px] mx-auto px-margin"><div class="bg-surface-container rounded-xl p-space-xl mb-space-xl flex flex-col lg:flex-row items-center justify-between gap-space-lg"><div class="max-w-xl text-center lg:text-left"><span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Community</span><h3 class="font-headline-lg text-headline-lg text-primary mt-space-xs mb-space-xs">Join the Plant Parent Club</h3><p class="font-body-md text-body-md text-on-surface-variant">Receive botanical care dispatches, early nursery release alerts, and 15% off your first greenhouse order.</p></div><div class="flex w-full lg:w-auto max-w-md gap-space-xs"><input class="flex-1 bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant px-space-md py-space-xs rounded-lg font-body-sm text-body-sm border border-outline-variant/50 focus:border-primary focus:outline-none" placeholder="Enter your email address..." type="email"/><button class="bg-primary text-on-primary font-label-lg text-label-lg px-space-lg py-space-xs rounded-lg hover:bg-primary-container transition-colors shadow-sm shrink-0">Subscribe</button></div></div><div class="flex flex-wrap items-center justify-between gap-space-md py-space-md mb-space-xl bg-surface-container-lowest rounded-xl px-space-lg"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[28px]">workspace_premium</span><div><p class="font-label-lg text-label-lg text-primary font-semibold">30-Day Green Arrival Guarantee</p><p class="font-body-sm text-body-sm text-on-surface-variant">Guaranteed thriving botanical specimens or a complimentary nursery replacement.</p></div></div><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[28px]">compost</span><div><p class="font-label-lg text-label-lg text-primary font-semibold">Sustainably Cultivated</p><p class="font-body-sm text-body-sm text-on-surface-variant">Peat-free substrates and non-toxic nursery care methods.</p></div></div><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[28px]">local_shipping</span><div><p class="font-label-lg text-label-lg text-primary font-semibold">Climate-Insulated Shipping</p><p class="font-body-sm text-body-sm text-on-surface-variant">Custom thermal eco-boxes engineered to protect tropical foliage.</p></div></div></div><div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg pb-space-xl"><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Botanical Care</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Care Guides</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Plant Doctor Clinic</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Substrate &amp; Soil Mixes</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Pest Management</a></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Shop Nursery</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Plant Finder</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Low Light Tolerant</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Pet Friendly Botanicals</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Rare Aroids</a></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Experience</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Workshop Schedule</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Private Greenhouse Hire</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Greenhouse Locations</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Botanical Consultation</a></div><div class="flex flex-col gap-space-sm"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Our Nursery</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">About Verdant &amp; Co.</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Sustainability Pledge</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Shipping &amp; Guarantees</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Customer Journal</a></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-xs"><img alt="Verdant &amp; Co." class="h-5 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XDL4ZHAzbQHZnhBYrEih0NtroBhGVXrb9P88cQRq7vcRO6VU2CnDT8mH60Jon31BRM44iBVN0FGAA1fGbh6DqXkfVUM6FolIwEA2a7UWjvm8ibm34hsCwEWGWqeFEntROGEgmTYIG6CBje2l8du3NloXXy1XpnOewyAG0SSnVSwfD3XmYV5w1pSupRySG6rRk3fD3jRbmZWnJ0H2IYByc1t9tQEqBfS5w6E-8TN1dflgmmXC0u4lBzl0eg"/><p>Â© 2025 Verdant &amp; Co. Botanicals Ltd. All rights reserved.</p></div><div class="flex items-center gap-space-md font-label-md text-label-md"><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" href="#">Terms of Service</a><a class="hover:text-primary transition-colors" href="#">Accessibility</a></div></div></div></footer><script>(function(){function t(){document.querySelectorAll("[data-mobile-menu]").forEach(function(m){m.classList.toggle("hidden")})}document.querySelectorAll("[data-mobile-btn]").forEach(function(b){b.onclick=t})})();</script></body></html>

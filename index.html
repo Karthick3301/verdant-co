@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Verdant &amp; Co. — Grown Locally, Planted for Keeps</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.no-scrollbar::-webkit-scrollbar{display:none;}.no-scrollbar{scrollbar-width:none;}</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "on-primary-fixed": "#022110",
+        "secondary-fixed": "#ffdbd0",
+        "outline-variant": "#c2c8c0",
+        "background": "#fef8f4",
+        "surface-container-low": "#f8f3ef",
+        "on-tertiary-fixed": "#072010",
+        "secondary-fixed-dim": "#ffb59f",
+        "on-background": "#1d1b19",
+        "error": "#ba1a1a",
+        "on-error-container": "#93000a",
+        "surface": "#fef8f4",
+        "tertiary": "#0a2312",
+        "surface-bright": "#fef8f4",
+        "inverse-primary": "#accfb4",
+        "on-primary": "#ffffff",
+        "surface-container-high": "#ece7e3",
+        "primary": "#052413",
+        "surface-container": "#f2ede9",
+        "tertiary-container": "#203926",
+        "on-secondary-container": "#772f18",
+        "surface-dim": "#ded9d5",
+        "on-secondary-fixed": "#3a0a00",
+        "surface-container-highest": "#e6e2de",
+        "outline": "#727972",
+        "primary-fixed-dim": "#accfb4",
+        "on-tertiary": "#ffffff",
+        "on-primary-fixed-variant": "#2f4d39",
+        "on-error": "#ffffff",
+        "tertiary-fixed": "#cceacf",
+        "tertiary-fixed-dim": "#b1ceb4",
+        "surface-variant": "#e6e2de",
+        "surface-container-lowest": "#ffffff",
+        "on-surface": "#1d1b19",
+        "on-tertiary-fixed-variant": "#334d39",
+        "inverse-on-surface": "#f5f0ec",
+        "error-container": "#ffdad6",
+        "secondary": "#97472e",
+        "on-surface-variant": "#424843",
+        "surface-tint": "#466550",
+        "primary-fixed": "#c8ebcf",
+        "on-tertiary-container": "#87a38b",
+        "on-secondary-fixed-variant": "#793019",
+        "secondary-container": "#fe997a",
+        "on-secondary": "#ffffff",
+        "on-primary-container": "#83a48b",
+        "inverse-surface": "#32302e",
+        "primary-container": "#1c3a27"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      "spacing": {
+        "margin": "3rem",
+        "space-md": "1rem",
+        "space-xs": "0.25rem",
+        "gutter-mobile": "1rem",
+        "space-xl": "2.5rem",
+        "space-lg": "1.5rem",
+        "space-sm": "0.5rem",
+        "gutter": "1.5rem",
+        "margin-mobile": "1.25rem"
+      },
+      "fontFamily": {
+        "body-md": ["Plus Jakarta Sans"],
+        "headline-sm": ["Playfair Display"],
+        "body-sm": ["Plus Jakarta Sans"],
+        "display-lg": ["Playfair Display"],
+        "body-lg": ["Plus Jakarta Sans"],
+        "headline-md": ["Playfair Display"],
+        "label-lg": ["Plus Jakarta Sans"],
+        "headline-xl-mobile": ["Playfair Display"],
+        "label-sm": ["Plus Jakarta Sans"],
+        "headline-lg": ["Playfair Display"],
+        "headline-xl": ["Playfair Display"],
+        "label-md": ["Plus Jakarta Sans"],
+        "display-lg-mobile": ["Playfair Display"]
+      },
+      "fontSize": {
+        "body-md": ["16px", {"lineHeight": "24px","fontWeight": "400"}],
+        "headline-sm": ["20px", {"lineHeight": "28px","fontWeight": "600"}],
+        "body-sm": ["14px", {"lineHeight": "20px","fontWeight": "400"}],
+        "display-lg": ["56px", {"lineHeight": "64px","letterSpacing": "-0.02em","fontWeight": "600"}],
+        "body-lg": ["18px", {"lineHeight": "28px","fontWeight": "400"}],
+        "headline-md": ["24px", {"lineHeight": "32px","fontWeight": "500"}],
+        "label-lg": ["14px", {"lineHeight": "20px","letterSpacing": "0.01em","fontWeight": "600"}],
+        "headline-xl-mobile": ["30px", {"lineHeight": "38px","fontWeight": "500"}],
+        "label-sm": ["11px", {"lineHeight": "14px","letterSpacing": "0.04em","fontWeight": "700"}],
+        "headline-lg": ["32px", {"lineHeight": "40px","fontWeight": "500"}],
+        "headline-xl": ["40px", {"lineHeight": "48px","letterSpacing": "-0.01em","fontWeight": "500"}],
+        "label-md": ["12px", {"lineHeight": "16px","letterSpacing": "0.02em","fontWeight": "600"}],
+        "display-lg-mobile": ["38px", {"lineHeight": "46px","letterSpacing": "-0.01em","fontWeight": "600"}]
+      }
+    }
+  }
+}</script>
+</head>
+<body class="bg-background font-body-md text-body-md text-on-surface antialiased">
+
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(28,58,39,0.04)]">
+<div class="bg-primary-container text-on-primary py-space-xs px-4 text-center font-label-md text-label-md tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">eco</span>
+<span>Spring Greenhouse Drop is live — Free healthy arrival guarantee on all orders over $65</span>
+</div>
+<div class="h-20 max-w-[1320px] mx-auto px-4 md:px-12 flex items-center justify-between gap-6">
+<div class="flex items-center gap-3 shrink-0">
+<img alt="Verdant &amp; Co. Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XDL4ZHAzbQHZnhBYrEih0NtroBhGVXrb9P88cQRq7vcRO6VU2CnDT8mH60Jon31BRM44iBVN0FGAA1fGbh6DqXkfVUM6FolIwEA2a7UWjvm8ibm34hsCwEWGWqeFEntROGEgmTYIG6CBje2l8du3NloXXy1XpnOewyAG0SSnVSwfD3XmYV5w1pSupRySG6rRk3fD3jRbmZWnJ0H2IYByc1t9tQEqBfS5w6E-8TN1dflgmmXC0u4lBzl0eg"/>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">Verdant &amp; Co.</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant tracking-widest uppercase">Botanical Boutique</span>
+</div>
+</div>
+<nav class="hidden lg:flex items-center gap-1" aria-label="Primary">
+<a href="shop.html" class="px-3 py-1.5 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors">Shop</a>
+<a href="clinic.html" class="px-3 py-1.5 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors">Plant care</a>
+<a href="#visit" class="px-3 py-1.5 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors">Visit us</a>
+<a href="#contact" class="px-3 py-1.5 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors">Contact</a>
+<a href="shop.html" class="ml-2 inline-flex items-center gap-1.5 bg-secondary text-on-secondary hover:bg-on-secondary-container font-label-md text-label-md px-4 py-2 rounded-lg shadow-sm transition-all"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span>Order online</span></a>
+</nav>
+<div class="flex items-center gap-2 shrink-0">
+<div class="relative hidden xl:block w-56">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span>
+<input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant pl-9 pr-4 py-1.5 rounded-lg font-body-sm text-body-sm border border-outline-variant/40 focus:border-primary focus:outline-none transition-all" placeholder="Search plants..." type="text"/>
+</div>
+<a href="cart.html" aria-label="Cart" class="relative p-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">shopping_bag</span>
+<span class="absolute top-0 right-0 w-4 h-4 bg-secondary text-on-secondary rounded-full text-[10px] flex items-center justify-center font-bold">2</span>
+</a>
+<button id="mobile-menu-btn" aria-label="Open menu" class="lg:hidden p-2 rounded-lg text-primary hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[24px]">menu</span>
+</button>
+</div>
+</div>
+<div id="mobile-menu" class="hidden lg:hidden border-t border-outline-variant/20 bg-surface px-4 py-3">
+<nav class="flex flex-col gap-1" aria-label="Mobile">
+<a href="shop.html" class="px-3 py-2.5 rounded-lg font-label-lg text-label-lg text-on-surface hover:bg-surface-container transition-colors">Shop</a>
+<a href="clinic.html" class="px-3 py-2.5 rounded-lg font-label-lg text-label-lg text-on-surface hover:bg-surface-container transition-colors">Plant care</a>
+<a href="#visit" class="px-3 py-2.5 rounded-lg font-label-lg text-label-lg text-on-surface hover:bg-surface-container transition-colors">Visit us</a>
+<a href="#contact" class="px-3 py-2.5 rounded-lg font-label-lg text-label-lg text-on-surface hover:bg-surface-container transition-colors">Contact</a>
+<a href="shop.html" class="mt-1 inline-flex items-center justify-center gap-1.5 bg-secondary text-on-secondary font-label-lg text-label-lg px-4 py-3 rounded-lg shadow-sm"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span>Order online</span></a>
+<a href="cart.html" class="inline-flex items-center justify-center gap-1.5 bg-surface-container text-primary font-label-md text-label-md px-4 py-2.5 rounded-lg mt-1"><span class="material-symbols-outlined text-[18px]">shopping_cart</span><span>Cart — 2 items</span></a>
+</nav>
+</div>
+</header>
+
+<main class="w-full pt-28 bg-background min-h-screen">
+<div class="flex flex-col w-full">
+
+<!-- HERO -->
+<section class="relative w-full bg-surface-container-low overflow-hidden pt-10 pb-10 md:pt-14 md:pb-14">
+<div class="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 right-0 w-[30rem] h-[30rem] rounded-full bg-secondary-fixed/40 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1320px] mx-auto px-4 md:px-12 relative">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-6 flex flex-col">
+<div class="inline-flex items-center gap-2 mb-4 bg-surface-container px-4 py-1 rounded-full w-fit">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Grown locally, planted for keeps</span>
+</div>
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary tracking-tight mb-4">Plants that are happy to come home with you.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-8 leading-relaxed">Trees, shrubs, perennials and houseplants, chosen for your light, your soil and your patience level.</p>
+<div class="flex flex-wrap items-center gap-3 mb-8">
+<a href="shop.html" class="inline-flex items-center justify-center gap-2 bg-primary text-on-primary font-label-lg text-label-lg px-6 py-3 rounded-lg shadow-md hover:bg-primary-container transition-all"><span>Browse plants</span><span class="material-symbols-outlined text-[18px]">arrow_forward</span></a>
+<a href="#visit" class="inline-flex items-center justify-center gap-2 bg-secondary-container text-on-secondary-container font-label-lg text-label-lg px-6 py-3 rounded-lg shadow-sm hover:bg-secondary-fixed transition-all"><span class="material-symbols-outlined text-[18px]">location_on</span><span>Plan a visit</span></a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-4 bg-surface-container-lowest/80 backdrop-blur-md rounded-xl p-4 shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">verified</span>
+<div class="flex flex-col"><span class="font-label-md text-label-md font-bold text-primary">30-Day Guarantee</span><span class="font-body-sm text-body-sm text-on-surface-variant">Arrives lush or replaced</span></div>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">eco</span>
+<div class="flex flex-col"><span class="font-label-md text-label-md font-bold text-primary">Grown Locally</span><span class="font-body-sm text-body-sm text-on-surface-variant">Hardened for home light</span></div>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">support_agent</span>
+<div class="flex flex-col"><span class="font-label-md text-label-md font-bold text-primary">Botanist Support</span><span class="font-body-sm text-body-sm text-on-surface-variant">Care guides &amp; diagnosis</span></div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-6 relative">
+<div class="relative w-full h-[380px] md:h-[480px] rounded-2xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover" alt="Sunlit nursery greenhouse with potted plants" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfb_qMhHk5zFrRk_B_O_-IGWWnlCwkTAxiSUgS9u7P29BdhdEK_lK5IznekTnt0IEmxfjyrQeFThsXhT6J4WuN3gPBiqjHt-upJnDYTa8d8hge3RuHYM_hjPAPqU83ghRoW4q86KmJdMTI-rdu_GTiMJpdK8uwtiewfoFwY1Cb5f97vtBk6wezkBb4ANMgA0xICu60-Ymhwv1kCgTn_kZD3clLzoVFE1zJRCEE9lIalyfadgEV54F1Qg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent"></div>
+<div class="absolute bottom-5 left-5 right-5 bg-surface-container-lowest/95 backdrop-blur-md p-4 rounded-xl flex items-center justify-between shadow-lg gap-3">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary p-2 bg-primary-fixed rounded-lg text-[22px]">nature</span>
+<div><p class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">This week at the nursery</p><p class="font-headline-sm text-headline-sm text-primary">Fresh spring arrivals</p></div>
+</div>
+<a href="shop.html" class="shrink-0 font-label-md text-label-md font-bold text-primary bg-surface-container px-3 py-1.5 rounded-full hover:bg-surface-container-high transition-colors">Shop →</a>
+</div>
+</div>
+<div class="absolute -top-4 -right-2 md:-right-4 bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold uppercase tracking-widest px-4 py-2 rounded-full shadow-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">potted_plant</span><span>Locally grown</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SHOP BY TYPE -->
+<section class="w-full py-10 md:py-14" id="shop-by-type">
+<div class="max-w-[1320px] mx-auto px-4 md:px-12">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-6">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-semibold">Categories</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-primary mt-1">Shop by type</h2>
+</div>
+<a href="shop.html" class="font-label-lg text-label-lg text-primary hover:text-secondary inline-flex items-center gap-1 transition-colors"><span>See everything</span><span class="material-symbols-outlined text-[16px]">arrow_forward</span></a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<a href="shop.html" class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col transform hover:-translate-y-1">
+<div class="relative w-full h-56 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Trees — shade, fruit and flowers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0rRcvbxOV2ye3U_bEl893fejuzOCL4GZPxAKEutl-Dd0qs6Fdjrj-K27FEmPLceBfo7CjHlgh9ZDl2DUAWZpbcnSk7XS8xnuDHfy4n09mctsQGP9azaKxgmplbaEx2xPddKE8BVkm8qqCq_8euz0350hKJl5KDQac14zKGJMqFlH4CDNIj1eyKrxoa34q9NNRCMxpcXLNRFHWZpoE24BPlYe2ijs3uN2YFG2Odn9iQodT8Jn4V3KDbA"/>
+<span class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full font-semibold flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">park</span>Trees</span>
+</div>
+<div class="p-4 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Trees</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Shade, fruit and flowers</p>
+<span class="mt-2 font-label-sm text-label-sm font-bold text-secondary inline-flex items-center gap-1">Browse trees <span class="material-symbols-outlined text-[16px]">arrow_forward</span></span>
+</div>
+</a>
+<a href="shop.html" class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col transform hover:-translate-y-1">
+<div class="relative w-full h-56 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Perennials — back every spring" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALfJtEYPQ8oJosSuPYcwO7Np4-pOjVIogpUuX7cZV-X4hPSn0rYELH05l146EIfau0m86j20q7q4m-_1zsKX7PPqFGSprLRPZ1eDObtSo7CASlE6VotRgqLa8HakRnbhZnyAjt5wPdjH_Bnb3-g8vdzL3X6j2VDC5rvoCmIc_v5IF99GcrX7iP9BpEm25zLPdURFTlhooqHfj94SaMUqIyag-mnKzKrJq3WjXyEYADqEwRgBwRWwuz8Q"/>
+<span class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full font-semibold flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">local_florist</span>Perennials</span>
+</div>
+<div class="p-4 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Perennials</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Back every spring</p>
+<span class="mt-2 font-label-sm text-label-sm font-bold text-secondary inline-flex items-center gap-1">Browse perennials <span class="material-symbols-outlined text-[16px]">arrow_forward</span></span>
+</div>
+</a>
+<a href="shop.html" class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col transform hover:-translate-y-1">
+<div class="relative w-full h-56 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Houseplants — low light friendly" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBanPAnjzSxetZEcRjfNGqCCw67OiSykAXxKr0iFoLGmkn_1ChHtopR1Ymr-8rEvCqRRK6DwcB-RclmQcuyyG7ofm8kR5RM-cKpxtEpg8c_7ntCwqUVwK395vSkeyptlYIv9RVRssYnRP1bEazoZ8wuvTxncWHK_ISxRX98_LJbdEDN39x7DuwcRCRYyO6EstfZ93UvPN5lEB9i6Jx03a8psurxetD3i7AbyC2_TdrhVwyC8Z8DJTa1Ow"/>
+<span class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full font-semibold flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">potted_plant</span>Houseplants</span>
+</div>
+<div class="p-4 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Houseplants</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Low light friendly</p>
+<span class="mt-2 font-label-sm text-label-sm font-bold text-secondary inline-flex items-center gap-1">Browse houseplants <span class="material-symbols-outlined text-[16px]">arrow_forward</span></span>
+</div>
+</a>
+<a href="shop.html" class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col transform hover:-translate-y-1">
+<div class="relative w-full h-56 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Seeds and bulbs — start something small" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJ5ynUIIqdGCo9ggmCy1HFuJkljWirJ7bBwpfTu_7jIae1sGUEo2moBbWofK8pbPc4rwFRBqfCXyAcb6As_Z422gyLh3LDufxLLBC-i1Lu32DfU7Lx261Q4fS0XvioFc-j6rGq9g2usFpUI5gWJvxRXadULOuUTQZsZc0V_Glv0o_jXuxS_bLuDF5qd8rlRg4eZpMVKUjIHa83FKrSkZXWGpRR4maGNuNMotr62EbaAQJIvxgocBy3kw"/>
+<span class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur text-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full font-semibold flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">spa</span>Seeds &amp; bulbs</span>
+</div>
+<div class="p-4 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Seeds and bulbs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Start something small</p>
+<span class="mt-2 font-label-sm text-label-sm font-bold text-secondary inline-flex items-center gap-1">Browse seeds <span class="material-symbols-outlined text-[16px]">arrow_forward</span></span>
+</div>
+</a>
+</div>
+</div>
+</section>
+
+<!-- FEATURED THIS SEASON -->
+<section class="w-full bg-surface-container-low py-10 md:py-14" id="featured">
+<div class="max-w-[1320px] mx-auto px-4 md:px-12">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-6">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-semibold">Seasonal picks</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-primary mt-1">Featured this season</h2>
+</div>
+<a href="shop.html" class="font-label-lg text-label-lg text-primary hover:text-secondary inline-flex items-center gap-1 transition-colors"><span>Shop all plants</span><span class="material-symbols-outlined text-[16px]">arrow_forward</span></a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
+<article class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1">
+<div>
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<a href="product.html" aria-label="View Monstera Deliciosa"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Monstera Deliciosa" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBanPAnjzSxetZEcRjfNGqCCw67OiSykAXxKr0iFoLGmkn_1ChHtopR1Ymr-8rEvCqRRK6DwcB-RclmQcuyyG7ofm8kR5RM-cKpxtEpg8c_7ntCwqUVwK395vSkeyptlYIv9RVRssYnRP1bEazoZ8wuvTxncWHK_ISxRX98_LJbdEDN39x7DuwcRCRYyO6EstfZ93UvPN5lEB9i6Jx03a8psurxetD3i7AbyC2_TdrhVwyC8Z8DJTa1Ow"/></a>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full shadow-sm">Best Seller</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur text-primary font-label-sm text-label-sm px-2 py-0.5 rounded-full font-semibold">Filtered Light</span>
+</div>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur flex items-center justify-center text-on-surface hover:text-secondary shadow-md transition-colors" onclick="toggleWishlist(this)"><span class="material-symbols-outlined text-[20px]">favorite</span></button>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Houseplant</span>
+<div class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings:'FILL' 1;">star</span><span class="font-label-sm text-label-sm font-bold">4.9</span><span class="font-body-sm text-body-sm text-on-surface-variant">(340)</span></div>
+</div>
+<a href="product.html"><h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Monstera Deliciosa</h3></a>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bright indirect light, water weekly</p>
+</div>
+</div>
+<div class="p-4 pt-0 flex items-center justify-between mt-2">
+<div><span class="font-label-sm text-label-sm text-on-surface-variant block">Botanical Specimen</span><span class="font-headline-md text-headline-md text-primary font-bold">$48.00</span></div>
+<button class="inline-flex items-center gap-1.5 bg-secondary text-on-secondary hover:bg-on-secondary-container font-label-md text-label-md px-4 py-2.5 rounded-lg shadow-sm transition-all" onclick="addToBag(this, 'Monstera Deliciosa')"><span class="material-symbols-outlined text-[18px]">add_shopping_cart</span><span>Add to cart</span></button>
+</div>
+</article>
+
+<article class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1">
+<div>
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<a href="product.html" aria-label="View Ficus Lyrata"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Ficus Lyrata" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY3GpGju6oJycMX2XWHG6JUKTHTxxSJ1LjQ55s8kKMnAGcVhZo7MJLMXzjD6ZyWXFQeAs2fEizWDjRgyuMqSxeNVxG-HJpyb-drlBsc7koEq65Cf8c3igD1oeDTHT17ZzwXpJaSU-SiFlsqZhkKhKpMFGhFH0-Bd4rKuyGKlf2mTxqwTaHxthQE8D7qwLaUsRUTgxi3311cAVwr8rcBQKR15DXzcHS5lT3F8KhEL2Mn1X9I-Qo3K-yOg"/></a>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
+<span class="bg-primary-container text-on-primary font-label-sm text-label-sm font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full shadow-sm">Statement Tree</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur text-primary font-label-sm text-label-sm px-2 py-0.5 rounded-full font-semibold">Bright Indirect</span>
+</div>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur flex items-center justify-center text-on-surface hover:text-secondary shadow-md transition-colors" onclick="toggleWishlist(this)"><span class="material-symbols-outlined text-[20px]">favorite</span></button>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Indoor Tree</span>
+<div class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings:'FILL' 1;">star</span><span class="font-label-sm text-label-sm font-bold">4.8</span><span class="font-body-sm text-body-sm text-on-surface-variant">(198)</span></div>
+</div>
+<a href="product.html"><h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Fiddle-Leaf Fig</h3></a>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Full sun, blooms midsummer presence</p>
+</div>
+</div>
+<div class="p-4 pt-0 flex items-center justify-between mt-2">
+<div><span class="font-label-sm text-label-sm text-on-surface-variant block">Mature 3.5ft Specimen</span><span class="font-headline-md text-headline-md text-primary font-bold">$74.00</span></div>
+<button class="inline-flex items-center gap-1.5 bg-secondary text-on-secondary hover:bg-on-secondary-container font-label-md text-label-md px-4 py-2.5 rounded-lg shadow-sm transition-all" onclick="addToBag(this, 'Fiddle-Leaf Fig')"><span class="material-symbols-outlined text-[18px]">add_shopping_cart</span><span>Add to cart</span></button>
+</div>
+</article>
+
+<article class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1">
+<div>
+<div class="relative w-full h-64 overflow-hidden bg-surface-container">
+<a href="product.html" aria-label="View Calathea Orbifolia"><img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Calathea Orbifolia" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgZLHoe8KHoiew2b3mJuwUL8iYIwVDeAoDghjnui6ZivrqyZ82aKlcw1FvvIZf81s0vYw1--XoAOFOu6R-pRNLYg0CGoFbKod0Ci7brHVBKdzDGBfPIDR-EwCrs75TqezH_M9c8nUQYyectiBejh5ynItETaWIStnM6dXzOB_VWY8_Ub7TutnAk7pDxZklnr6ObLy8eL6DAE06rBOtwvC5rLLQaEqOGcV77mfcHKdwbTewCu3s4O0_yw"/></a>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-full shadow-sm flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">pets</span> Pet Friendly</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur text-primary font-label-sm text-label-sm px-2 py-0.5 rounded-full font-semibold">Air Purifying</span>
+</div>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur flex items-center justify-center text-on-surface hover:text-secondary shadow-md transition-colors" onclick="toggleWishlist(this)"><span class="material-symbols-outlined text-[20px]">favorite</span></button>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">Houseplant</span>
+<div class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[16px] text-secondary" style="font-variation-settings:'FILL' 1;">star</span><span class="font-label-sm text-label-sm font-bold">4.7</span><span class="font-body-sm text-body-sm text-on-surface-variant">(112)</span></div>
+</div>
+<a href="product.html"><h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Calathea Orbifolia</h3></a>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Partial shade, easy to grow</p>
+</div>
+</div>
+<div class="p-4 pt-0 flex items-center justify-between mt-2">
+<div><span class="font-label-sm text-label-sm text-on-surface-variant block">Botanical Specimen</span><span class="font-headline-md text-headline-md text-primary font-bold">$42.00</span></div>
+<button class="inline-flex items-center gap-1.5 bg-secondary text-on-secondary hover:bg-on-secondary-container font-label-md text-label-md px-4 py-2.5 rounded-lg shadow-sm transition-all" onclick="addToBag(this, 'Calathea Orbifolia')"><span class="material-symbols-outlined text-[18px]">add_shopping_cart</span><span>Add to cart</span></button>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- NOT SURE WHAT TO GROW -->
+<section class="w-full bg-primary text-on-primary py-10 md:py-14 relative overflow-hidden">
+<svg class="absolute -right-24 -bottom-24 w-96 h-96 text-primary-container opacity-30 pointer-events-none" fill="currentColor" viewBox="0 0 100 100"><path d="M50 0 C60 30 85 40 100 50 C85 60 60 70 50 100 C40 70 15 60 0 50 C15 40 40 30 50 0 Z"></path></svg>
+<div class="max-w-[1320px] mx-auto px-4 md:px-12 relative z-10">
+<div class="bg-primary-container rounded-2xl p-6 md:p-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 shadow-xl">
+<div class="max-w-2xl flex flex-col gap-3">
+<div class="inline-flex items-center gap-2 bg-primary/40 px-3 py-1 rounded-full w-fit">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">psychology_alt</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed font-bold">Plant finder</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-primary tracking-tight">Not sure what to grow?</h2>
+<p class="font-body-md text-body-md text-primary-fixed-dim leading-relaxed">Tell us how much light you get and how often you will water. We will point you to plants that fit.</p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-2">
+<div class="bg-primary/30 rounded-xl p-3 flex items-start gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[22px]">wb_sunny</span>
+<div><p class="font-label-md text-label-md font-bold text-on-primary">Sun</p><p class="font-body-sm text-body-sm text-primary-fixed-dim">Full, part or shade</p></div>
+</div>
+<div class="bg-primary/30 rounded-xl p-3 flex items-start gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[22px]">water_drop</span>
+<div><p class="font-label-md text-label-md font-bold text-on-primary">Water</p><p class="font-body-sm text-body-sm text-primary-fixed-dim">Thirsty or forgiving</p></div>
+</div>
+<div class="bg-primary/30 rounded-xl p-3 flex items-start gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[22px]">yard</span>
+<div><p class="font-label-md text-label-md font-bold text-on-primary">Space</p><p class="font-body-sm text-body-sm text-primary-fixed-dim">Pot, bed or yard</p></div>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-3 pt-2">
+<a href="clinic.html" class="inline-flex items-center justify-center gap-2 bg-secondary-container text-on-secondary-container hover:bg-secondary-fixed font-label-lg text-label-lg px-6 py-3 rounded-lg shadow-md transition-all"><span class="material-symbols-outlined text-[18px]">search</span><span>Find my plant</span></a>
+<a href="clinic.html" class="inline-flex items-center justify-center gap-2 border border-primary-fixed/40 text-primary-fixed hover:bg-primary/30 font-label-lg text-label-lg px-6 py-3 rounded-lg transition-all"><span class="material-symbols-outlined text-[18px]">menu_book</span><span>Read care guides</span></a>
+</div>
+</div>
+<div class="w-full lg:w-80 shrink-0 bg-surface-container-lowest rounded-2xl p-5 shadow-lg">
+<div class="flex items-center gap-2 mb-2"><span class="material-symbols-outlined text-secondary text-[22px]">timer</span><span class="font-label-md text-label-md font-bold text-primary">Takes 90 seconds</span></div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Answer 3 quick questions about light, water and space to get 3 tailor-fit picks.</p>
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between bg-surface-container-low rounded-lg px-3 py-2"><span class="font-body-sm text-body-sm text-on-surface">Bright window + weekly water</span><span class="material-symbols-outlined text-primary text-[18px]">check_circle</span></div>
+<div class="flex items-center justify-between bg-surface-container-low rounded-lg px-3 py-2"><span class="font-body-sm text-body-sm text-on-surface">Low light + forgetful waterer</span><span class="material-symbols-outlined text-primary text-[18px]">check_circle</span></div>
+<div class="flex items-center justify-between bg-surface-container-low rounded-lg px-3 py-2"><span class="font-body-sm text-body-sm text-on-surface">Patio pots + full sun</span><span class="material-symbols-outlined text-primary text-[18px]">check_circle</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- VISIT THE NURSERY -->
+<section class="w-full py-10 md:py-14" id="visit">
+<div class="max-w-[1320px] mx-auto px-4 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-2xl p-6 md:p-8 shadow-sm flex flex-col justify-between">
+<div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-semibold">Visit us</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-primary mt-1 mb-3">Visit the nursery</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Come see everything in person — our growers will help you match plants to your light and space.</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex items-start gap-3 bg-surface-container-low rounded-xl p-4">
+<span class="material-symbols-outlined text-primary text-[24px]">location_on</span>
+<div><p class="font-label-lg text-label-lg text-primary font-bold">123 Greenhouse Lane</p><p class="font-body-sm text-body-sm text-on-surface-variant">Maplewood, Open Tue–Sun</p></div>
+</div>
+<div class="flex items-start gap-3 bg-surface-container-low rounded-xl p-4">
+<span class="material-symbols-outlined text-primary text-[24px]">schedule</span>
+<div><p class="font-label-lg text-label-lg text-primary font-bold">Tue–Sun, 9am–5pm</p><p class="font-body-sm text-body-sm text-on-surface-variant">Closed Mondays for repotting</p></div>
+</div>
+<div class="flex items-start gap-3 bg-surface-container-low rounded-xl p-4">
+<span class="material-symbols-outlined text-primary text-[24px]">call</span>
+<div><p class="font-label-lg text-label-lg text-primary font-bold">(555) 123-4567</p><p class="font-body-sm text-body-sm text-on-surface-variant">Call the potting bench</p></div>
+</div>
+<div class="flex items-start gap-3 bg-surface-container-low rounded-xl p-4">
+<span class="material-symbols-outlined text-primary text-[24px]">mail</span>
+<div><p class="font-label-lg text-label-lg text-primary font-bold">hello@verdant.example</p><p class="font-body-sm text-body-sm text-on-surface-variant">We reply within a day</p></div>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap gap-3 mt-6">
+<a href="shop.html" class="inline-flex items-center gap-2 bg-primary text-on-primary font-label-lg text-label-lg px-6 py-3 rounded-lg shadow-sm hover:bg-primary-container transition-all"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span>Order online</span></a>
+<a href="clinic.html" class="inline-flex items-center gap-2 bg-surface-container text-primary font-label-lg text-label-lg px-6 py-3 rounded-lg hover:bg-surface-container-high transition-all"><span>Plan your visit</span><span class="material-symbols-outlined text-[18px]">arrow_forward</span></a>
+</div>
+</div>
+<div class="lg:col-span-5 relative rounded-2xl overflow-hidden shadow-md min-h-[320px] bg-surface-container">
+<img class="absolute inset-0 w-full h-full object-cover" alt="Inside the Verdant nursery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZyVWbi97B_mGz4jBbfgxm7wHg0jsmgC7GIfd0Ab88pJLafWx9bbM318c4iAf0UhMAdDuuJvo71MeogMUrfuRZnzxy6QLUGkLfIOXOKt7Mcw56hQu3i-MH5z6mc-1dBKy9K730rXL-cP4M0V0PpNV-DUQBFPyKgDFU3KB0L4th-o_3HZuciG9dcTWGvgtC0Ke4juthoeiOthRc8K-FocMOy88GUfXbsGrNVTayIV0Y2AcIyY5l6pARtg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/10 to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/95 backdrop-blur rounded-xl p-4 flex items-center justify-between gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">eco</span>
+<div><p class="font-label-md text-label-md font-bold text-primary">Seasonal planting tips, once a month</p><p class="font-body-sm text-body-sm text-on-surface-variant">No spam, just timely reminders</p></div>
+</div>
+<a href="#newsletter" class="shrink-0 bg-secondary text-on-secondary font-label-sm text-label-sm font-bold px-3 py-2 rounded-lg hover:bg-on-secondary-container transition-colors">Subscribe</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+</main>
+
+<footer class="w-full bg-surface-container-low pt-10 pb-6 mt-6" id="contact">
+<div class="max-w-[1320px] mx-auto px-4 md:px-12">
+<div id="newsletter" class="bg-surface-container rounded-xl p-6 md:p-10 mb-6 flex flex-col lg:flex-row items-center justify-between gap-6">
+<div class="max-w-xl text-center lg:text-left">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Community</span>
+<h3 class="font-headline-lg text-headline-lg text-primary mt-1 mb-1">Join the Plant Parent Club</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Receive botanical care dispatches, early nursery release alerts, and 15% off your first greenhouse order.</p>
+</div>
+<form class="flex w-full lg:w-auto max-w-md gap-2" onsubmit="subscribeNews(event)">
+<input id="newsletter-email" class="flex-1 bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant px-4 py-2 rounded-lg font-body-sm text-body-sm border border-outline-variant/50 focus:border-primary focus:outline-none" placeholder="Enter your email address..." type="email" required/>
+<button type="submit" class="bg-primary text-on-primary font-label-lg text-label-lg px-6 py-2 rounded-lg hover:bg-primary-container transition-colors shadow-sm shrink-0">Subscribe</button>
+</form>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-4 py-4 mb-6 bg-surface-container-lowest rounded-xl px-6">
+<div class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[28px]">workspace_premium</span><div><p class="font-label-lg text-label-lg text-primary font-semibold">30-Day Green Arrival Guarantee</p><p class="font-body-sm text-body-sm text-on-surface-variant">Guaranteed thriving specimens or a complimentary replacement.</p></div></div>
+<div class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[28px]">compost</span><div><p class="font-label-lg text-label-lg text-primary font-semibold">Sustainably Cultivated</p><p class="font-body-sm text-body-sm text-on-surface-variant">Peat-free substrates and non-toxic nursery care.</p></div></div>
+<div class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[28px]">local_shipping</span><div><p class="font-label-lg text-label-lg text-primary font-semibold">Climate-Insulated Shipping</p><p class="font-body-sm text-body-sm text-on-surface-variant">Thermal eco-boxes protect tropical foliage.</p></div></div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 pb-8">
+<div class="flex flex-col gap-2"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Shop</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="shop.html">All plants</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="shop.html">Trees</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="shop.html">Houseplants</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="product.html">Featured plants</a></div>
+<div class="flex flex-col gap-2"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Plant care</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="clinic.html">Care guides</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="clinic.html">Plant doctor clinic</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="clinic.html">Workshops</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="clinic.html">Find my plant</a></div>
+<div class="flex flex-col gap-2"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Visit us</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#visit">Nursery location</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#visit">Opening hours</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="cart.html">Order online</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="cart.html">Cart</a></div>
+<div class="flex flex-col gap-2"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider font-semibold">Contact</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#contact">(555) 123-4567</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#contact">hello@verdant.example</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="#newsletter">Newsletter</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" href="shop.html">Shipping &amp; guarantees</a></div>
+</div>
+<div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-2"><img alt="Verdant &amp; Co." class="h-5 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XDL4ZHAzbQHZnhBYrEih0NtroBhGVXrb9P88cQRq7vcRO6VU2CnDT8mH60Jon31BRM44iBVN0FGAA1fGbh6DqXkfVUM6FolIwEA2a7UWjvm8ibm34hsCwEWGWqeFEntROGEgmTYIG6CBje2l8du3NloXXy1XpnOewyAG0SSnVSwfD3XmYV5w1pSupRySG6rRk3fD3jRbmZWnJ0H2IYByc1t9tQEqBfS5w6E-8TN1dflgmmXC0u4lBzl0eg"/><p>© 2025 Verdant &amp; Co. Botanicals Ltd. All rights reserved.</p></div>
+<div class="flex items-center gap-4 font-label-md text-label-md"><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" href="#">Terms of Service</a><a class="hover:text-primary transition-colors" href="#">Accessibility</a></div>
+</div>
+</div>
+</footer>
+
+<div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 translate-y-24 opacity-0 transition-all duration-300 z-[60] bg-primary text-on-primary px-4 py-2.5 rounded-lg shadow-xl flex items-center gap-2 max-w-[90vw]">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span id="toast-text" class="font-label-md text-label-md font-semibold">Added to basket</span>
+</div>
+
+<script>
+function toggleMobile(){ var m=document.getElementById('mobile-menu'); m.classList.toggle('hidden'); }
+document.getElementById('mobile-menu-btn').addEventListener('click', toggleMobile);
+document.querySelectorAll('#mobile-menu a').forEach(function(a){ a.addEventListener('click', function(){ document.getElementById('mobile-menu').classList.add('hidden'); }); });
+function toggleWishlist(btn){
+  var icon = btn.querySelector('.material-symbols-outlined');
+  var filled = (icon.style.fontVariationSettings||'').indexOf("'FILL' 1") !== -1;
+  if(filled){ icon.style.fontVariationSettings = "'FILL' 0"; icon.classList.remove('text-secondary'); showToast('Removed from wishlist'); }
+  else { icon.style.fontVariationSettings = "'FILL' 1"; icon.classList.add('text-secondary'); showToast('Saved to wishlist'); }
+}
+function addToBag(btn, name){
+  btn.classList.add('scale-95'); setTimeout(function(){ btn.classList.remove('scale-95'); },150);
+  showToast(name + ' added to basket');
+}
+function showToast(msg){
+  var t=document.getElementById('toast'); var tx=document.getElementById('toast-text');
+  tx.innerText=msg; t.classList.remove('translate-y-24','opacity-0');
+  clearTimeout(window.__toastT);
+  window.__toastT=setTimeout(function(){ t.classList.add('translate-y-24','opacity-0'); },2600);
+}
+function subscribeNews(e){ e.preventDefault(); var v=document.getElementById('newsletter-email').value; showToast('Thanks — check '+v+' for 15% off'); e.target.reset(); }
+</script>
+</body>
+</html>
